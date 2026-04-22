@@ -1,0 +1,49 @@
+.coverimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.covercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  padding: 2rem;
+}
+nav {
+  display: grid;
+  align-content: start;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+button {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  font-weight: bolder;
+  font-size: large;
+  font-family: "sans-notch", sans-serif;
+}
+button:hover {
+  background-color: blueviolet;
+}
+main {
+  background-color: aqua;
+  padding: 3rem;
+}
+p {
+  font-family: "sans-notch", sans-serif;
+  text-align: center;
+}
+.targetjob {
+  color: blue;
+  font-size: small;
+}
+.lastupdated {
+  text-align: end;
+}
+footer {
+  padding-top: 2rem;
+  background-color: orangered;
+}
