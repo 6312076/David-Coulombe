@@ -1,0 +1,88 @@
+body {
+  display: grid;
+  min-height: 100%;
+  grid-template-rows: auto auto 2fr auto;
+  background-color: aquamarine;
+}
+
+.coverimg {
+  display: flex;
+  width: 45vh;
+  height: 45vh;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1rem solid rgb(97, 97, 201); /* ! dont use px */
+  object-fit: cover;
+}
+.covercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  padding: 2rem;
+}
+nav {
+  display: grid;
+  align-content: start;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+button {
+  display: flex;
+  height: 7vh; /* ! not px here */
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  font-weight: bolder;
+  font-size: small;
+  font-family: "sans-notch", sans-serif;
+}
+button:hover {
+  background-color: blueviolet;
+}
+main {
+  background-color: aqua;
+  padding: 3rem;
+}
+p {
+  font-family: "sans-notch", sans-serif;
+  text-align: center;
+}
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.targetjob {
+  color: blue;
+  font-size: small;
+}
+.lastupdated {
+  display: flex;
+  text-align: end;
+  justify-content: flex-end;
+}
+footer {
+  padding-top: 2rem;
+  background-color: orangered;
+}
+@media (min-width: 768px) {
+  button {
+    height: 10vh; /* ! not px */
+  }
+}
+@media (min-width: 1281px) {
+  button {
+    height: 15vh; /* ! not px */
+    font-size: x-large;
+  }
+  .MyName {
+    font-size: x-large;
+  }
+  .targetjob {
+    font-size: larger;
+  }
+  .portfolio {
+    font-size: x-large;
+  }
+}
