@@ -1,3 +1,7 @@
+body {
+  background-color: aquamarine;
+}
+
 .coverimg {
   display: flex;
   align-items: center;
@@ -20,7 +24,7 @@ nav {
 }
 button {
   display: flex;
-  height: 40px;
+  height: 50px;
   align-items: center;
   justify-content: center;
   background-color: beige;
@@ -49,4 +53,24 @@ p {
 footer {
   padding-top: 2rem;
   background-color: orangered;
+}
+@media (min-width: 768px) {
+  button {
+    height: 40px;
+  }
+}
+@media (min-width: 1281px) {
+  button {
+    height: 70px;
+    font-size: x-large;
+  }
+  .MyName {
+    font-size: x-large;
+  }
+  .targetjob {
+    font-size: larger;
+  }
+  .portfolio {
+    font-size: x-large;
+  }
 }
