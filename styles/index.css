@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 1rem solid rgb(97, 97, 201); /* ! dont use px */
+  border: 1rem solid rgb(97, 97, 201); 
   object-fit: cover;
 }
 .covercontainer {
@@ -29,7 +29,7 @@ nav {
 }
 button {
   display: flex;
-  height: 7vh; /* ! not px here */
+  height: 7vh; 
   align-items: center;
   justify-content: center;
   background-color: beige;
@@ -43,10 +43,6 @@ button:hover {
 main {
   background-color: aqua;
   padding: 3rem;
-}
-p {
-  font-family: "sans-notch", sans-serif;
-  text-align: center;
 }
 .portfolio {
   display: flex;
@@ -68,12 +64,12 @@ footer {
 }
 @media (min-width: 768px) {
   button {
-    height: 10vh; /* ! not px */
+    min-height: 10vh; 
   }
 }
 @media (min-width: 1281px) {
   button {
-    height: 15vh; /* ! not px */
+    min-height: 15vh; 
     font-size: x-large;
   }
   .MyName {
