@@ -4,6 +4,24 @@ body {
   grid-template-rows: auto auto 2fr auto;
   background-color: aquamarine;
 }
+.sudokuheader{
+  font-size: xx-large;
+}
+.projectimages {
+  display: grid;
+  align-content: start;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  
+}
+.projectimages img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Reachme{ font-size: x-large;}
 
 .coverimg {
   display: flex;
